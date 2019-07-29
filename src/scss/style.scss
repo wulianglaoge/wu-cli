@@ -1,0 +1,12 @@
+$nav-color: blue;
+@import "./common.scss";
+.box1,.box2{
+    width: 100px;
+    height: 200px;
+    border: 1px solid red;
+}
+.box{
+    @extend .box1;
+    font-size: 30px;
+    color: $nav-color;
+}

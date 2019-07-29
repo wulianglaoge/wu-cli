@@ -1,0 +1,19 @@
+$my-color: blue;
+.btn{
+    text-align: center
+}
+    
+.fl{
+    float: left
+}
+.fr{
+    float: right
+} 
+@mixin bcenter($height){
+    width: 100%;
+    height: $height;
+    text-align: center;
+    line-height: $height;
+}
+
+    
